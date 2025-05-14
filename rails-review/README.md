@@ -4,7 +4,6 @@
 - [ ] "Rails Week" Conversation
 - [ ] MVC Review
 - [ ] Quickly build simple Rails app
-- [ ] Nested Resources
 
 ### Model View Controller Review
 - **Model:** Responsible for handling data logic (eg. database queries)
