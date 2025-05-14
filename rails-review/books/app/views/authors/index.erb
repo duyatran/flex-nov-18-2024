@@ -1,0 +1,10 @@
+<h1>All the Authors</h1>
+# Create a link to /books
+<a href="/books">Books</a>
+<%= link_to "Books (raw link_to)", "/books" %>
+<%= link_to "Books (proper link_to)", books_path %>
+<% @authors.each do |author| %>
+  <div>
+    <h2><%= "#{author.first_name} #{author.last_name}" %></h2>
+  </div>
+<% end %>
